@@ -91,21 +91,21 @@ img {
 .portfolio_images{
     position: relative;
     float:left;
-    margin-bottom: 40px;
-    margin-right: 30px;
-    height: 180px;
-    width: 180px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 300px;
+    width: 300px;
 }
 
 .portfolio_images img{
-    height: 180px;
-    width: 180px;
+    height: 300px;
+    width: 300px;
 }
 
 .portfolio_images div{
     position: absolute;
     bottom:20px;
-    width: 180px;
+    width: 300px;
     color: white;
     text-align: center;
     padding-top:10px;
@@ -113,9 +113,8 @@ img {
     background-color: #4aaaa5;
 }
 section{
-    width: 500px;
-    heigth: auto;
-    padding: 30px;
+    height: auto;
+    padding: 10px;
 }
 /*portfolio page end*/
 
@@ -136,6 +135,7 @@ footer p{
     bottom:2px;
     text-align: center;
     font-size: 10px;
+    line-height: 40px;
     color: lightgrey;
 }
 
@@ -155,11 +155,13 @@ footer p{
 
 /*Input boxes*/
 textarea{
+    width:100%;
     border-color: lightgrey;
     margin-top: 5px;
     margin-bottom:5px;
 }
 input{
+    width:100%;
     margin-top: 5px;
     margin-bottom:5px;
 }
@@ -175,6 +177,7 @@ input{
         position:relative;
         width:100%;
         text-align: center;
+        margin-left:10px;
     }
 
     #header_menu{
